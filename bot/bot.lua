@@ -72,7 +72,7 @@ function is_momod(msg)
   if group[tostring(msg.chat_id_)] and group[tostring(msg.chat_id_)].moderators and group[tostring(msg.chat_id_)].moderators[tostring(user)] then
     var = true
   end
-  if group[tostring(msg.chat_id_)] and group[tostring(msg.chat_id_)].set_owner and group[tostring(msg.chat_id_)].set_owner == tostring(user) then
+  if group[tostring(msg.chat_id_)] and group[tostring(msg.chat_id_)].set_owner238886119 and group[tostring(msg.chat_id_)].set_owner == tostring(user) then
     var = true
   end
   for v, user in pairs(_config.sudo_users) do
