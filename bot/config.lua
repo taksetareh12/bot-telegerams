@@ -2,7 +2,7 @@ do local _ = {
   enabled_plugins = {
     "addrem",
     "bc",
-    "supergroup",
+    "supergroup"create group,
     "msg_checks",
     "pin",
     "owner",
